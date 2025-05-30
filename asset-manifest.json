@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/nasir177/language-learning-app-.git/static/css/main.02245800.css",
-    "main.js": "/nasir177/language-learning-app-.git/static/js/main.8d15bc8d.js",
+    "main.js": "/nasir177/language-learning-app-.git/static/js/main.cd9c0b6a.js",
     "static/js/453.7eca6b8b.chunk.js": "/nasir177/language-learning-app-.git/static/js/453.7eca6b8b.chunk.js",
     "index.html": "/nasir177/language-learning-app-.git/index.html",
     "main.02245800.css.map": "/nasir177/language-learning-app-.git/static/css/main.02245800.css.map",
-    "main.8d15bc8d.js.map": "/nasir177/language-learning-app-.git/static/js/main.8d15bc8d.js.map",
+    "main.cd9c0b6a.js.map": "/nasir177/language-learning-app-.git/static/js/main.cd9c0b6a.js.map",
     "453.7eca6b8b.chunk.js.map": "/nasir177/language-learning-app-.git/static/js/453.7eca6b8b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02245800.css",
-    "static/js/main.8d15bc8d.js"
+    "static/js/main.cd9c0b6a.js"
   ]
 }
