@@ -1,0 +1,123 @@
+.hero-container {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+
+.bg-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  color: #4a3200;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  top: 50%; /* Adjust this value to match the vertical center of the torii gate */
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  z-index: 3;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.primary-btn {
+  background-color: #b23a1d; /* Rich torii red */
+  color: #fff8f0; /* Soft off-white for contrast */
+  box-shadow: 0 4px 16px rgba(178, 58, 29, 0.15);
+  transition: background 0.2s, color 0.2s;
+}
+
+.primary-btn:hover {
+  background-color: #a12e13;
+  color: #fff;
+}
+
+.secondary-btn {
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #7a4a1b; /* Deep brown to match wood tones */
+  border: 2px solid #b23a1d;
+  transition: background 0.2s, color 0.2s, border 0.2s;
+}
+
+.secondary-btn:hover {
+  background-color: #fff8f0;
+  color: #b23a1d;
+  border-color: #a12e13;
+}
+
+/* Responsive adjustments for all sizes */
+.buttons {
+  position: fixed;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+  z-index: 3;
+  width: 90vw;
+  max-width: 400px;
+}
+
+.primary-btn, .secondary-btn {
+  padding: 10px 20px;
+  font-size: 0.98rem;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  min-width: 140px;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustments for tablets */
+@media (max-width: 900px) {
+  .buttons {
+    top: 60%;
+    gap: 12px;
+     width: 40vw;
+    max-width: 90vw;
+  }
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 600px) {
+  .buttons {
+    top: 60%;
+    gap: 10px;
+    flex-direction: column;
+    width: 40vw;
+    max-width: 90vw;
+  }
+}
